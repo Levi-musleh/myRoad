@@ -1,0 +1,18 @@
+{
+  "name": "fem-managa-landing-page",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.0.8"
+  },
+  "dependencies": {
+    "destyle.css": "^4.0.0",
+    "swiper": "^11.0.5"
+  }
+}

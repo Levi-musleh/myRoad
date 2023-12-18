@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <script type="module" src="main.js" defer></script>
+    <title>manage-landing-page</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <svg class="header-logo">
+        <use xlink:href="/images/sprite-svg.svg#manage-logo"></use>
+      </svg>
+      <nav id="header-nav" class="hidden">
+        <ul class="header-nav-list | padding-block-400 secondary-heading">
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Community</a></li>
+        </ul>
+      </nav>
+      <div id="header-nav-toggle" class="header-nav-toggle">
+        <button>
+          <svg class="nav-icon" id="icon-hamburger">
+            <use
+              xlink:href="/images/sprite-svg.svg#icon-hamburger"
+              width="2rem"
+            ></use>
+          </svg>
+          <svg class="nav-icon hidden" id="icon-close">
+            <use
+              xlink:href="/images/sprite-svg.svg#icon-close"
+              width="2rem"
+            ></use>
+          </svg>
+        </button>
+        <button class="button mobile-hidden" type="button">Get Started</button>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <!-- Section one -->
+        <section class="section-wrapper padding-bottom-700">
+          <h1 class="primary-heading">
+            Bring everyone together to build better products.
+          </h1>
+          <p class="paragraph" class="text-center" data-text-width="regular">
+            Manage makes it simple for software teams to plan day-to-day tasks
+            while keeping the larger team goals in view.
+          </p>
+          <button class="button">Get Started</button>
+        </section>
+
+        <!-- Section two -->
+        <section class="illustration-intro-section | section-wrapper">
+          <div>
+            <img
+              class="illustration-intro"
+              src="/images/illustration-intro.svg"
+              alt="illustration-intro"
+            />
+          </div>
+        </section>
+
+        <!-- Section three -->
+        <section class="section-wrapper padding-bottom-500">
+          <h1 class="primary-heading">What&#39;s different about Manage?</h1>
+          <p class="paragraph" class="text-center" data-text-width="regular">
+            Manage provides all the functionality your team needs, without the
+            complexity. Our software is tailor-made for modern digital product
+            teams.
+          </p>
+        </section>
+
+        <!-- Section four -->
+        <ul class="numbered-list section-wrapper padding-bottom-700 list-flow">
+          <li>
+            <div class="numbered-list-number">
+              <h2 class="secondary-heading">Track company-wide progress</h2>
+            </div>
+            <p class="paragraph" data-text-width="wide">
+              See how your day-to-day tasks fit into the wider vision. Go from
+              tracking progress at the milestone level all the way done to the
+              smallest of details. Never lose sight of the bigger picture again.
+            </p>
+          </li>
+          <li>
+            <div class="numbered-list-number">
+              <h2 class="secondary-heading">Advanced built-in reports</h2>
+            </div>
+            <p class="paragraph" data-text-width="wide">
+              Set internal delivery estimates and track progress toward company
+              goals. Our customisable dashboard helps you build out the reports
+              you need to keep key stakeholders informed.
+            </p>
+          </li>
+          <li>
+            <div class="numbered-list-number">
+              <h2 class="secondary-heading">
+                Everything you need in one place
+              </h2>
+            </div>
+            <p class="paragraph" data-text-wide>
+              Stop jumping from one service to another to communicate, store
+              files, track tasks and share documents. Manage offers an
+              all-in-one team productivity solution.
+            </p>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Section carousel -->
+      <section class="carousel padding-bottom-500">
+        <h1 class="primary-heading">What they've said</h1>
+        <div class="swiper">
+          <div class="swiper-wrapper padding-block-400">
+            <div class="swiper-slide">
+              <img src="/images/avatar-anisha.png" alt="Anisha li" />
+              <div class="slide-text">
+                <h3 class="secondary-heading">Anisha Li</h3>
+                <p class="paragraph">
+                  <q>
+                    Lorem ipsum dolor sit amet consectetur cing lit. Quis
+                    asperiores assumenda repellat in a, dolores vero ipsum,
+                    excepturi, eveniet praesentium perferendis doloremque.
+                  </q>
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="/images/avatar-ali.png" alt="Ali Bravo" />
+              <div class="slide-text">
+                <h3 class="secondary-heading">Ali Bravo</h3>
+                <p class="paragraph">
+                  <q class="paragraph">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Tempore quia, vel iusto sapiente, ut repellendus a impedit
+                    quae accusantium magnam deleniti deserunt et repudiandae
+                  </q>
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="/images/avatar-richard.png" alt="Richard Watss" />
+              <div class="slide-text">
+                <h3 class="secondary-heading">Richard Watts</h3>
+                <p class="paragraph">
+                  <q
+                    >Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Molestiae nobis nam dolorem laboriosam qui illo doloribus
+                    consequatur, fugit nesciunt tempora, est velit. Ad.
+                  </q>
+                </p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="images/avatar-shanai.png" alt="Shanai Ping" />
+              <div class="slide-text">
+                <h3 class="secondary-heading">Shanai Ping</h3>
+                <p class="paragraph">
+                  <q>
+                    Tempora quidem tempore nisi neque, tenetur deserunt
+                    obcaecati totam. Soluta inventore eaque quasi exercitationem
+                    dicta eius recusandae, est nam voluptates sint eligendi!
+                  </q>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <button class="button">Get Started</button>
+      </section>
+      <!-- section five -->
+      <section
+        class="section-wrapper bg-clr-primary-bright-red flex-gap-200 padding-block-700"
+      >
+        <h1 class="primary-heading" data-text-width="narrow">
+          Simplify how your team works today.
+        </h1>
+        <button class="button inverted-colors" data-no-shadow>
+          Get Started
+        </button>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer | padding-block-500 bg-clr-neutral-dark-blue">
+      <!-- Footer logo -->
+      <div id="footer-logo">
+        <svg class="footer-logo">
+          <use xlink:href="/images/sprite-svg.svg#manage-logo"></use>
+        </svg>
+      </div>
+
+      <!-- Social Links -->
+      <ul class="inline-flex-center flex-gap-400" id="social-links">
+        <li>
+          <a href="#">
+            <svg class="icon">
+              <use xlink:href="/images/sprite-svg.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <svg class="icon">
+              <use xlink:href="/images/sprite-svg.svg#icon-youtube"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <svg class="icon">
+              <use xlink:href="/images/sprite-svg.svg#icon-X"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <svg class="icon">
+              <use xlink:href="/images/sprite-svg.svg#icon-pinterest"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <svg class="icon">
+              <use xlink:href="/images/sprite-svg.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+
+      <!-- Footer nav -->
+      <ul id="footer-nav">
+        <li><a href="">Home</a></li>
+        <li><a href="">Pricing</a></li>
+        <li><a href="">products</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Careers</a></li>
+        <li><a href="">Community</a></li>
+        <li><a href="">Privacy Policy</a></li>
+      </ul>
+      <form action="" id="footer-form">
+        <input type="text" placeholder="Updates in your inbox..." />
+        <button type="submit" class="button button-sm" data-no-shadow>
+          GO
+        </button>
+      </form>
+      <div id="copyright">
+        <p class="paragraph">Copyright 2020. All Rights Reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
